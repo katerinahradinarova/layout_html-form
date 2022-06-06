@@ -1,1 +1,15 @@
-/* styles go here */
+.set {
+  margin-bottom: 20px;
+}
+
+.fieldForm {
+  display: block;
+}
+
+.fieldForm:last-child {
+  margin-bottom: 0;
+}
+
+.form-field {
+  margin-bottom: 10px;
+}
