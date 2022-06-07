@@ -14,97 +14,126 @@
     <script type="text/javascript" src="./main.js"></script>
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
 
-      <fieldset class="set">
+      <fieldset class="field_set">
         <legend>Personal information</legend>
 
         <div>
           <label class="fieldForm">
             Surname:
-            <input type="text" name="surname"
-            class="form-field">
+            <input
+              type="text"
+              name="surname"
+              class="form-field"
+              autocomplete="off"
+            >
           </label>
         </div>
 
         <div>
           <label class="fieldForm">
             Name:
-            <input type="text"
-            name="name"
-            class="form-field">
+            <input
+              type="text"
+              name="name"
+              class="form-field"
+              autocomplete="off"
+            >
           </label>
         </div>
 
         <div>
           <label class="fieldForm">
             How old are You?
-            <input type="number" name="age"
-            class="form-field"
-            min="1" max="100"
-            value="12"
-            required>
+            <input
+              type="number"
+              name="age"
+              class="form-field"
+              min="1"
+              max="100"
+              value="12"
+              required
+            >
           </label>
         </div>
 
         <div>
           <label class="fieldForm">
             Full date of birth:
-            <input type="date" name="dateOfBirth"
-            class="form-field"
-            placeholder="mm/dd/yyyy">
+            <input
+              type="date"
+              name="dateOfBirth"
+              class="form-field"
+              placeholder="mm/dd/yyyy"
+            >
           </label>
         </div>
 
         <div>
           <label class="fieldForm">
             I accept the term of the agreement
-            <input type="checkbox" class="form-field"
-            name="agreement"
-            required>
+            <input
+              type="checkbox"
+              class="form-field"
+              name="agreement"
+              required
+            >
           </label>
         </div>
 
       </fieldset>
 
 
-      <fieldset class="set">
+      <fieldset class="field_set">
         <legend>Registration</legend>
 
         <div>
           <label class="fieldForm">
             E-mail:
-            <input type="email" name="email"
-            class="form-field"
-            placeholder="email@example.com">
+            <input
+              type="email"
+              name="email"
+              class="form-field"
+              placeholder="email@example.com"
+            >
           </label>
         </div>
 
         <div>
           <label class="fieldForm">
             Password:
-            <input type="password" name="password"
-            class="form-field"
-            minlength="6"
-            maxlength="28"
-            required>
+            <input
+              type="password"
+              name="password"
+              class="form-field"
+              minlength="6"
+              maxlength="28"
+              required
+            >
           </label>
         </div>
 
       </fieldset>
 
-      <fieldset class="set">
+      <fieldset class="field_set">
         <legend>An interesting fact about you!</legend>
 
         <div>
           <label class="fieldFormF">
             Do you love cats?
             <label>
-              <input type="radio" name="cat"
-            value="Y">
+              <input
+                type="radio"
+                name="cat"
+                value="Y"
+              >
             Yes
             </label>
             <label>
-              <input type="radio" name="cat"
-            value="N">
+              <input
+                type="radio"
+                name="cat"
+                value="N"
+              >
             No
             </label>
           </label>
@@ -113,16 +142,22 @@
         <div>
           <label class="fieldFormF">
             What is your favorite color?
-            <input type="color" name="color"
-            class="form-field">
+            <input
+              type="color"
+              name="color"
+              class="form-field"
+            >
           </label>
         </div>
 
         <div>
           <label class="fieldForm">
             What time do you go to bed?
-            <input type="time" name="'time"
-            class="form-field">
+            <input
+              type="time"
+              name="'time"
+              class="form-field"
+            >
           </label>
         </div>
 
@@ -140,15 +175,18 @@
         <div>
           <label class="fieldForm">
             How do you rate our work?
-            <input type="range" name="rating"
-            min="0"
-            max="100"
-            value="0">
+            <input
+              type="range"
+              name="rating"
+              min="0"
+              max="100"
+              value="0"
+            >
           </label>
         </div>
       </fieldset>
 
-      <fieldset class="set">
+      <fieldset class="field_set">
         <legend>Additional info:</legend>
 
         <div>
